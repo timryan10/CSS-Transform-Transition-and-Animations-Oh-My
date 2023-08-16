@@ -1,23 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
 
-body  {
+body {
   font-family: 'Josefin Sans', sans-serif;
   text-align: center;
+  background-image: url("./assets/benjamin-voros-phIFdC6lA4E-unsplash.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
 }
 
-.caption {
+p{
   width: 80%;
   margin: auto;
   overflow: hidden;
 }
 
 img {
-  width: 80%;
+  width: 100%;
 }
 
 button {
   padding: 1em;
-  margin: .2em;
+  margin-top: 30em;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1.5em;
 }
